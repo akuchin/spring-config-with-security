@@ -5,7 +5,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>configdemo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>config-demo</name>
@@ -54,6 +54,7 @@
 	</dependencyManagement>
 	
 	<build>
+		<finalName>configdemo</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
