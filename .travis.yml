@@ -1,0 +1,11 @@
+language: java
+jdk:
+- oraclejdk8
+script: mvn package
+deploy_key:
+  secure: 
+  provider: bintray
+  file: *.jar
+  user: aakuchin
+  key: Dz0fphqCSXvTdF/1XZ5VihDsjnp2nK7dzc4Szx5l+h3Xrw9jBS75P6Xgxa22/AeMEzyttD9DIRaeOZZXu7RWcs67Vf8UoX/u9K1+NeQEtPqOvMGKLgH+WZEMSkl90KwVar2b2IbQ3w7PPoZENbbziDAdM+1gNhw7c5/j7mV9I4sc2LgE3ENz+USYtuNk90CxF6CVXOXqVVsfOkh5wu9eKOth4E9MSQ+xhL/Xw3v+J6Rn3eyLwi/BglJaGIr8WmkuZFfQ4nQLy6JFKYcDw94x2TO6ol55YbzdijVYSlzwgdrrC9uKF7h98gdTzvrTjSDDaLJTaXE+kTFK1XHV/VeKttaF5cORWrm3jze5xz2nHbqWoKW5/Th7gcOouLRo57lia0SSfZV4jMSnrdoDBk/3/+n/dx0nNbm8SGUAYRcHc4Zds05msjCQgWEL5pmp6MjckhgXUeNoCfW7BDgtThjk9R84r4if+UE/tS+usyPv4irvPzdq3AT0yQ5uHhQ7+rcYAaFKBGgUQuSwmqrHWr45uchj3yCsONjBiJw+xdOUYS+h2WwNR8sLIqhC9bZJnYsNWiwx8yV/gRlyEHTNgP68f5DHD+nlnB9Xty+ju1e7RjVtAyFe2ReABqZQzNemd+TYHkpZxSmV9sC1Aauh8HWYuCn16BBEloeMU1fD4Txxi9Y=
+
